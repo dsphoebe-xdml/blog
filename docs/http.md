@@ -132,7 +132,9 @@ curl -X GET -v -H 'X-My-Header: 123' https://www.baidu.com
 ```
 
 -X 可以指定发送请求的方法
+
 -v 是指啰嗦模式，也就是显示出更多的信息，如果要查看 HTTP 的请求和响应的信息，就需要它
+
 -H 是指自定义请求头
 
 可以通过 tldr curl 查看其他 curl 其他指令，通过 explianshell.com 查看具体指令的描述。
